@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimal Style CSS Resume</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: monospace;
+        font-weight: 600;
+      }
+      .central-container {
+        margin: auto;
+        width: 1080px;
+      }
+      .top-green-box {
+        height: 61px;
+  
+        background-color: #7abcac;
+      }
+      header .name-position-block {
+        margin: auto;
+        margin-bottom: 70px;
+        border: 4px solid black;
+        width: 586px;
+      padding: 44px 20px;
+      }
+
+      h1:first-of-type {
+        margin-top: 43px;
+        font-size: 44px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      header h2, footer h2 {
+        font-size: 24px;
+        width: 300px;
+        background-color: black;
+        color: white;
+        margin: 18px auto;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      .green-box {
+        width: 72px;
+        height: 10px;
+        background-color: #7abcac;
+        transform: translateY(7px);
+      }
+      .section-header-container {
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+      hr {
+        height: 4px;
+        background-color: #dcdcdc;
+        border: none;
+      }
+
+      section h2 {
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 16px;
+      }
+      section:nth-of-type(1) p {
+        padding-bottom: 50px;
+      }
+      .link-container {
+        height: 30px;
+        position: relative;
+        padding: 5px;
+      }
+      section:nth-of-type(2) a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+    
+      }
+
+      section:nth-of-type(2) img {
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+
+      .grey-short-separator {
+        width: 200px;
+      }
+      section:nth-of-type(3) p {
+        padding: 30px 0;
+      }
+      .skill {
+        display: inline-block;
+        padding: 0px 10px;
+        margin: 10px 0px;
+      border-radius: 11px;
+    }
+      .excelent {
+        background-color: #7abcac;
+      }
+      .very-good {
+        background-color: #D8DA79;
+      }
+     .good {
+      background-color: #C29486;
+    }
+
+     .one-third-container {
+      width: 29%;
+      display: inline-block;
+    }
+    section:nth-of-type(6) .one-third-container:nth-of-type(3) {
+      border-right: 2px solid #DCDCDC ; 
+      border-left: 2px solid #DCDCDC ;
+    }
+    section:nth-of-type(6)  .one-third-container:nth-of-type(3), .one-third-container:nth-of-type(4) {
+  padding-right: 20px;
+  padding-left: 40px;
+}
+     section .one-third-container p:nth-of-type(1) {
+      line-height: 25px;
+      text-align: center;
+    }
+     section .one-third-container p:nth-of-type(2) {
+      padding-top: 20px;
+    }
+     ul {
+      margin-top: 10px;
+    }
+      li {
+        display: list-item; 
+        font-size: 16px; 
+        margin-left:
+         20px;
+        }
+        footer {
+          margin-top: 80px;
+        }
+        
+        footer hr {
+          margin-bottom: 30px;
+        }
+        footer .one-third-container {
+          height: 200px;
+        }
+        footer a {
+          display:block;
+           text-decoration:none;
+           font-size: 16px;
+           color: black;
+          text-align: center;
+        
+      }
+
+      a:hover {color: #7abcac;}
+
+      footer .one-third-container p {text-align: center;}
+       footer .one-third-container {padding-left: 30px;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="central-container">
+        <div class="top-green-box"></div>
+        <div class="name-position-block">
+          <h1>Monika Suroviatkinaite</h1>
+          <h2>Assistant/Accountant</h2>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="central-container">
+        <div class="section-header-container">
+          <h2>About me</h2>
+          <div>
+          <div class="green-box"></div>
+          <hr />
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          incidunt laudantium, libero cum ipsa dicta provident reiciendis culpa!
+          Repellendus ea culpa, facilis hic quas, sed nobis dolor id corrupti
+          quo error maiores tenetur nesciunt, totam sapiente deserunt suscipit
+          adipisci! Veniam, dolores? Exercitationem eligendi distinctio illo
+          aperiam. Eaque repellendus eius vel.
+        </p>
+      </div>
+    </section>
+    <section>
+
+      <div class="central-container">
+        <div class="section-header-container">
+          <h2>Links</h2>
+          <div class="green-box"></div>
+          <hr />
+        </div>
+        <div class="link-container">
+          <img src="images/linkedin.svg" alt="linkedin-icon" />
+          <a
+            href="https://www.linkedin.com/in/monika-suroviatkinaite-465722197/"
+            >LINKEDIN/monika-suroviatkinaite</a
+          >
+        </div>
+        <div class="link-container">
+          <img src="images/twitter.svg" alt="twitter-icon" />
+          <a
+            href="https://www.linkedin.com/in/monika-suroviatkinaite-465722197/"
+            >TWITTER@username</a
+          >
+        </div>
+        <div class="link-container">
+          <img src="images/github.svg" alt="github-icon" />
+          <a href="https://github.com/suromonika">GITHUB/suromonika</a>
+        </div>
+        <div class="link-container">
+          <img src="images/dev.svg" alt="dev-icon" />
+          <a href="#">BLOG/username</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="central-container">
+        <div class="section-header-container">
+          <h2>Education</h2>
+          <div class="green-box"></div>
+          <hr />
+          <p>
+            ALEKSANDRO STULGINSKIO UNIVERSITETAS<br />
+            2014 - 2018 <br />
+            Land Use Planning Bachelor's degree
+          </p>
+          <hr class="grey-short-separator" />
+          <p>
+            CZHECH UNIVERSITY OF LIFE SCIENCES PRAGUE<br />
+            2015 - 2016 <br />
+            STUDENT EXCHANGE PROGRAM
+          </p>
+        </div>
+      </div>
+    </section>
+   <section>
+<div class="central-container">
+        <div class="section-header-container">
+          <h2>Personal Skills</h2>
+          <div class="green-box"></div>
+          <hr />
+        </div>
+        <div>
+        <p class="skill excelent">TEAMWORK</p>
+        </div>
+        <div>
+        <p class="skill very-good">ORGANIZATION</p>
+      </div>
+      <div>
+        <p class="skill good">COMMUNICATION</p>
+        </div>
+
+   </section>
+   <section>
+<div class="central-container">
+        <div class="section-header-container">
+          <h2>Technical Skills</h2>
+          <div class="green-box"></div>
+          <hr />
+         </div>
+        
+        <p class="skill very-good">HTML</p>
+        <br>
+        <p class="skill very-good">CSS/SCSS</p>
+        <br>
+        <p class="skill good">JAVASCRIPT</p>
+</div>
+   </section>
+   <section>
+    <div class="central-container">
+        <div class="section-header-container">
+          <h2>Work Experience</h2>
+          <div class="green-box"></div>
+          <hr />
+         </div>
+        <div class="one-third-container">
+          <p>Data Analyst (Internship)<br>
+         Nacionalinis GIS Centras
+         <br>
+         2017</p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptate totam harum quasi ad placeat, magni aliquam aspernatur modi vitae eos suscipit excepturi alias, ipsa aut quam velit aperiam delectus?</p>
+         <ul>
+          <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+      </ul>
+        </div>
+        <div class="one-third-container">
+          <p>CREDIT BALANCE SPECIALIST<br>
+         R1
+         <br>
+         2018-2020</p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptate totam harum quasi ad placeat, magni aliquam aspernatur modi vitae eos suscipit excepturi alias, ipsa aut quam velit aperiam delectus?</p>
+         <ul>
+          <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+      </ul>
+         
+        </div>
+          <div class="one-third-container">
+          <p>CREDIT BALANCE SPECIALIST<br>
+         R1
+         <br>
+         2018-2020</p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptate totam harum quasi ad placeat, magni aliquam aspernatur modi vitae eos suscipit excepturi alias, ipsa aut quam velit aperiam delectus?</p>
+         <ul>
+          <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+      </ul>
+         
+        </div>
+ 
+</div>
+   </section>
+   <footer>
+    <div class="central-container">
+    <hr>
+    <div class="content-center-footer">
+    <div class="one-third-container">
+      <h2>Address</h2>
+      <p>Ruppertstr. 30</p>
+      <p>Munich, Germany</p>
+    </div>
+    <div class="one-third-container">
+      <h2>Contact</h2>
+      <a href="tel:+49343434343">+49343434343</a>
+      <a href="mailto: suro.monika@gmail.com">suro.monika@gmail.com</a>
+    </div>
+    <div class="one-third-container">
+      <h2>Social</h2>
+      <a href="https://www.linkedin.com/in/monika-suroviatkinaite-465722197/" target="_blank">LINKEDIN/monika-suroviatkinaite</a>
+      <a href="https://www.twitter.com" target="_blank">TWITTER/username</a>
+    </div>
+    </div>
+    </div>
+    
+   </footer>
+  </body>
+</html>
